@@ -1,16 +1,60 @@
-# React + Vite
+# Doremon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A playful React + Vite landing page inspired by Doraemon, built with GSAP animations and scroll-driven transitions.
 
-Currently, two official plugins are available:
+## What this project includes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19 with Vite
+- Tailwind CSS styling
+- GSAP animations with `ScrollTrigger`
+- Animated character cards and floating text
+- Footer reveal animation from the final section
+- Remix Icon support and React Router DOM installed
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal to preview the app.
+
+## Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Linting
+
+```bash
+npm run lint
+```
+
+## Project structure
+
+- `src/`
+  - `App.jsx` — top-level application shell
+  - `main.jsx` — React entry point
+  - `components/` — animated sections, cards, footer, and scenes
+  - `assets/` — image files for the app
+- `public/` — static public assets
+- `vite.config.js` — Vite configuration
+- `package.json` — dependencies and scripts
+
+## Notes
+
+- GSAP powers the motion and scroll experience.
+- Footer text floats with a subtle infinite animation.
+- Tailwind provides utility-first styling.
+
+## License
+
+This repository does not contain a license file by default.
