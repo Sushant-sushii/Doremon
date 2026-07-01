@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "doramon";
+  src: url("/DORAEMON.woff") 
+}
+@font-face {
+  font-family: "grow";
+  src: url("/Grow Year.otf") 
+}
+@font-face {
+  font-family: "child";
+  src: url("/Childstone Demo.otf") 
+}
+
+@import "tailwindcss";
+
+#string{
+    height:200px;
+    width:100%;
+    
+}
